@@ -1,5 +1,5 @@
 # dice
-Roll a dice
+Roll a dice.
 
 ## Functions
 
@@ -28,7 +28,7 @@ func main() {
 ```go
 func RollChance(chance int) bool
 ```
-*RollChance* rolls a hundred sided die and returns *true* if the result is smaller or euqal to *chance*. Otherwise it returns *false*. The value for *chance* may be larger then 100, in which case *RollChance* returns *true* or smaller or equal to 0, in which case *RollChance* returns *false*.
+*RollChance* rolls a hundred sided die and returns *true* if the result is smaller or equal to *chance*. Otherwise it returns *false*. The value for *chance* may be > 100, in which case *RollChance* returns *true*, or <= 0, in which case *RollChance* returns *false*.
 
 #### Example
 ```go
