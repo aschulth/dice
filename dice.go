@@ -11,8 +11,14 @@ func Roll(sides int) int {
 }
 
 func RollChance(chance int) bool {
-    if chance >= 100 { return true }
-    if chance <= 0 { return false }
-    if Roll(100) <= chance { return true }
-    return false
+	if chance >= 100 {
+		return true
+	}
+	if chance <= 0 {
+		return false
+	}
+	if Roll(100) <= chance {
+		return true
+	}
+	return false
 }
