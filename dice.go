@@ -12,6 +12,7 @@ func Roll(s int) int {
 
 func RollPerc(percentage int) bool {
     if percentage >= 100 { return true }
+    if percentage <= 0 { return false }
     if Roll(100) <= percentage { return true }
     return false
 }
