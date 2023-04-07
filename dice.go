@@ -1,3 +1,6 @@
+// Copyright 2023 by the author. All rights reserved.
+// Use of this source code is governed by the Apache
+// license 2.0 that can be found in the LICENSE file.
 package dice
 
 import (
